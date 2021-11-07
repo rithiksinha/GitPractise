@@ -20,6 +20,8 @@ struct ContentView: View {
                     .cornerRadius(10)
                     .padding()
                 
+                spacer ()
+                
                 HStack {
                     Text ("Welcome Back")
                         .foregroundColor(Color.white)
